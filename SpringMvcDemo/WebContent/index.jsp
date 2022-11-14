@@ -11,8 +11,10 @@
 <h2>Welcome in Application</h2>
 
 <form action="pagecall">
+ Username  :  <input type="text" name="uname"><br><br>
+ Password  :  <input type="text" name="pass"><br><br>
   <input type="submit" value="OK">
 </form> 
-
+<a href="register.jsp">Register Here</a>
 </body>
 </html>
