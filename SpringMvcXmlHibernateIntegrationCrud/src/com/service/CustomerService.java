@@ -9,4 +9,10 @@ public interface CustomerService {
 	void addCustomerData(Customer customer);
 	
     List<Customer> getAllData(String uname,String pass);
+    
+    Customer getSingleCustomer(int id);
+    
+    List<Customer> getCheckUpdatedData(Customer customer);
+    
+    List<Customer> afterdeletingData(int id);
 }

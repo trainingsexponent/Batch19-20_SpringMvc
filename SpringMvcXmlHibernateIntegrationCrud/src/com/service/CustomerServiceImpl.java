@@ -27,4 +27,22 @@ public class CustomerServiceImpl implements CustomerService{
 		return customerDao.getAllData(uname, pass);
 	}
 
+	@Override
+	public Customer getSingleCustomer(int id) {
+		// TODO Auto-generated method stub
+		return customerDao.getSingleCustomer(id);
+	}
+
+	@Override
+	public List<Customer> getCheckUpdatedData(Customer customer) {
+		// TODO Auto-generated method stub
+		return customerDao.getCheckUpdatedData(customer);
+	}
+
+	@Override
+	public List<Customer> afterdeletingData(int id) {
+		// TODO Auto-generated method stub
+		return customerDao.afterdeletingData(id);
+	}
+
 }
